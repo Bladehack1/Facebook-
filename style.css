@@ -1,0 +1,86 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+  justify-content: center;
+}
+
+/* Image hors de la div */
+.image-container {
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  width: 150px; /* Ajustez la taille selon vos besoins */
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Div du formulaire */
+.login-form {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.login-form h2 {
+  margin: 0 0 20px;
+}
+
+/* Champs email et mot de passe parfaitement centrés */
+.login-form input {
+  display: block;
+  width: 90%; /* Réduit légèrement pour ne pas toucher les bords */
+  padding: 10px;
+  margin: 10px auto; /* Centrage vertical et horizontal */
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+/* Bouton Login */
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Texte bleu */
+.info-text {
+  color: blue;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* Bouton "Créer un compte" */
+.create-account {
+  width: 60%; /* 60% de la largeur du bouton Login */
+  padding: 10px;
+  background-color: #28a745; /* Vert */
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.create-account:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,71 @@
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8fafc;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+}
+
+/* Spinner */
+.spinner {
+  width: 70px;
+  height: 70px;
+  border: 6px solid #ddd;
+  border-top: 6px solid #007BFF;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+/* Animation de rotation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Message caché initialement */
+.hidden {
+  display: none;
+}
+
+h1 {
+  font-size: 24px;
+  color: #007BFF;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Bouton Me reconnecter */
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
